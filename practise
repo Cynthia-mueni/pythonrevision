@@ -1,0 +1,12 @@
+def sorted_merge(list1,list2):
+    merged_list=list1+list2
+    merged_list.sort()
+    return merged_list
+   
+   
+    
+    list1=[10,5,15]
+    list2=[20,3,2]
+    result=sorted_merge(list1,list2)
+    
+    
